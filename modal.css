@@ -1,0 +1,43 @@
+.button{
+  border:1px solid #333;
+  background:#6479fd;
+}
+.button:hover{
+  background:#a4a9fd;
+}
+.dialog{
+  border:3px solid #F37003; /*#666*/
+  padding:10px;
+  background:#E6E2E1;
+  position:absolute;
+  display:none;
+  width: 335px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.dialog label{
+  display:inline-block;
+  color:steelblue;
+}
+input[type=text]{
+  border:1px solid #333;
+  display:inline-block;
+  margin:5px;
+}
+
+#nodeSave {
+    margin-left:5px;
+    padding:3px;
+    color:green;
+    /*padding:5px 5px 5px 15px;*/
+    width:70px;
+    color:white;
+    background-color:#F37003;
+    box-shadow:1px 1px 5px grey;
+    border-radius:3px;
+    text-align: center;
+}
+
+#nodeSave:hover {
+    cursor:pointer;
+}

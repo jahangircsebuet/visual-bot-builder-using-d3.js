@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+ <head>
+    <script type="text/javascript" src="d3.v3.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js" ></script>
+
+    <script type="text/javascript" src="config.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="connector.js"></script>
+    <script type="text/javascript" src="drag.js"></script>
+    <script type="text/javascript" src="node.js"></script>
+    <script type="text/javascript" src="node_event_handler.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="modal.css" rel="stylesheet">
+
+
+    <style src="bootstrap.min.css" type="text/css"></style>
+    <script src="bootstrap.min.js" type="text/javascript"></script>
+ </head>
+ <body>
+ <div class="container">
+     <div class="row">
+         <div id="canvas" class="col-md-12">
+             <p id="addNode">Add</p>
+             <p id="clearNodes">Clear</p>
+             <p id="redrawNodes">Redraw</p>
+         </div>
+     </div>
+    <div style="clear:both;"></div>
+
+
+     <div class="row dialog" id="myform">
+        <div class="col-md-12">
+            <!-- Dialog Box-->
+            <div class="row">
+                <label class="col-sm-2">Intent</label>
+                <div class="col-sm-10"><input type="text" class="form-control" /></div>
+            </div>
+            <div class="row">
+                <label class="col-sm-2">Slots</label>
+                <div class="col-sm-10"><input type="text" class="form-control" />
+            </div>
+            <div class="row">
+                <label class="col-sm-2">Node Reply</label>
+                <div class="col-sm-10"><input type="text" class="form-control" />
+            </div>
+            <div class="row">
+                <label class="col-sm-2">Action String</label>
+                <div class="col-sm-10"><input type="text" class="form-control" />
+            </div>
+            <div align="right">
+                <p id="nodeSave">Save</p>
+            </div>
+        </div>
+    </div>
+ </div>
+</body>
+</html>
